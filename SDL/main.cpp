@@ -45,7 +45,7 @@ int main(int argc, char** argv)
 		}
 		ren1.SetDrawColor(255,255,255,255);
 		ren1.Clear();
-		img1.Apply(event.motion.x-400,event.motion.y-400,ren1);
+		img1.Apply(event.motion.x-400,event.motion.y-300,ren1);
 		ren1.Update();
 	}
 	return 0;
